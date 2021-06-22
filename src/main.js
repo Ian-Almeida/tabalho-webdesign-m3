@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Vuesax from 'vuesax';
+import VueCodeHighlight from 'vue-code-highlight';
 
 import App from './App.vue';
 import router from './router';
@@ -10,6 +11,7 @@ import 'boxicons/css/boxicons.css';
 
 Vue.config.productionTip = false;
 
+Vue.use(VueCodeHighlight);
 Vue.use(Vuesax, {
   // colors: {
   //   primary: '#5b3cc4',
