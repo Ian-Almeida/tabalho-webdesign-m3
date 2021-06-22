@@ -1,11 +1,12 @@
 <template>
-  <div >
+  <div>
     <vs-sidebar
       absolute
       hover-expand
       reduce
       v-model="active"
       open
+      fixed
     >
       <template #logo>
         <!-- ...img logo -->
@@ -249,9 +250,6 @@ export default {
     active: 'home',
   }),
   methods: {
-    onClickSocialMediaHandler: (e) => {
-      console.log(e);
-    },
   },
 };
 </script>

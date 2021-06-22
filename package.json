@@ -13,8 +13,10 @@
     "boxicons": "^2.0.7",
     "core-js": "^3.6.5",
     "postcss": "^7",
+    "prismjs": "^1.23.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "vue": "^2.6.11",
+    "vue-code-highlight": "^0.7.8",
     "vue-router": "^3.2.0",
     "vue-svg-loader": "^0.16.0",
     "vuesax": "^4.0.1-alpha.25"
