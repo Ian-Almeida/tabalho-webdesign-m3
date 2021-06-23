@@ -223,7 +223,7 @@
 
 <!--      </vs-sidebar-group>-->
 
-      <template #footer>
+      <!--<template #footer>
         <vs-row justify="space-between">
           <vs-avatar badge-color="danger" badge-position="top-right" >
             <i class='bx bx-bell' ></i>
@@ -238,7 +238,7 @@
           </vs-avatar>
         </vs-row>
       </template>
-    </vs-sidebar>
+    </vs-sidebar>-->
   </div>
 </template>
 
