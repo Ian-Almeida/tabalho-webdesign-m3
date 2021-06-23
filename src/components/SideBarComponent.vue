@@ -164,64 +164,64 @@
 
       </vs-sidebar-group>
 
-      <vs-sidebar-group>
-        <template #header>
-          <vs-sidebar-item arrow>
-            <template #icon>
-              <i class='bx bx-data'></i>
-            </template>
-            DataBase
-          </vs-sidebar-item>
-        </template>
+<!--      <vs-sidebar-group>-->
+<!--        <template #header>-->
+<!--          <vs-sidebar-item arrow>-->
+<!--            <template #icon>-->
+<!--              <i class='bx bx-data'></i>-->
+<!--            </template>-->
+<!--            DataBase-->
+<!--          </vs-sidebar-item>-->
+<!--        </template>-->
 
-        <vs-sidebar-item id="database-mysql" to="/mysql">
-          <template #icon>
-            <img :src="require(`../../src/assets/mysql.svg`)" class="w-6" alt="mysql">
-          </template>
-          MySQL
-        </vs-sidebar-item>
+<!--        <vs-sidebar-item id="database-mysql" to="/mysql">-->
+<!--          <template #icon>-->
+<!--            <img :src="require(`../../src/assets/mysql.svg`)" class="w-6" alt="mysql">-->
+<!--          </template>-->
+<!--          MySQL-->
+<!--        </vs-sidebar-item>-->
 
-        <vs-sidebar-item id="database-postgres" to="/postgres">
-          <template #icon>
-            <img :src="require(`../../src/assets/postgres.svg`)" class="w-6" alt="postgresql">
-          </template>
-          PostgreSQL
-        </vs-sidebar-item>
+<!--        <vs-sidebar-item id="database-postgres" to="/postgres">-->
+<!--          <template #icon>-->
+<!--           <img :src="require(`../../src/assets/postgres.svg`)" class="w-6" alt="postgresql">-->
+<!--          </template>-->
+<!--          PostgreSQL-->
+<!--        </vs-sidebar-item>-->
 
-      </vs-sidebar-group>
+<!--      </vs-sidebar-group>-->
 
-      <vs-sidebar-group>
-        <template #header>
-          <vs-sidebar-item arrow>
-            <template #icon>
-              <i class='bx bx-bug'></i>
-            </template>
-            Outros
-          </vs-sidebar-item>
-        </template>
+<!--      <vs-sidebar-group>-->
+<!--        <template #header>-->
+<!--          <vs-sidebar-item arrow>-->
+<!--            <template #icon>-->
+<!--              <i class='bx bx-bug'></i>-->
+<!--            </template>-->
+<!--            Outros-->
+<!--          </vs-sidebar-item>-->
+<!--        </template>-->
 
-        <vs-sidebar-item id="others-cpp" to="/cplusplus">
-          <template #icon>
-            <i class="bx bxl-c-plus-plus"></i>
-          </template>
-          System-C
-        </vs-sidebar-item>
+<!--        <vs-sidebar-item id="others-cpp" to="/cplusplus">-->
+<!--          <template #icon>-->
+<!--            <i class="bx bxl-c-plus-plus"></i>-->
+<!--          </template>-->
+<!--          System-C-->
+<!--        </vs-sidebar-item>-->
 
-        <vs-sidebar-item id="others-verilog" to="/verilog">
-          <template #icon>
-            <img :src="require(`../../src/assets/verilog.svg`)" class="w-6" alt="verilog">
-          </template>
-          Verilog
-        </vs-sidebar-item>
+<!--        <vs-sidebar-item id="others-verilog" to="/verilog">-->
+<!--          <template #icon>-->
+<!--            <img :src="require(`../../src/assets/verilog.svg`)" class="w-6" alt="verilog">-->
+<!--          </template>-->
+<!--          Verilog-->
+<!--        </vs-sidebar-item>-->
 
-        <vs-sidebar-item id="others-vhdl" to="/vhdl">
-          <template #icon>
-            <img :src="require(`../../src/assets/vhdl.svg`)" class="w-6" alt="vhdl">
-          </template>
-          VHDL
-        </vs-sidebar-item>
+<!--        <vs-sidebar-item id="others-vhdl" to="/vhdl">-->
+<!--          <template #icon>-->
+<!--            <img :src="require(`../../src/assets/vhdl.svg`)" class="w-6" alt="vhdl">-->
+<!--          </template>-->
+<!--          VHDL-->
+<!--        </vs-sidebar-item>-->
 
-      </vs-sidebar-group>
+<!--      </vs-sidebar-group>-->
 
       <template #footer>
         <vs-row justify="space-between">

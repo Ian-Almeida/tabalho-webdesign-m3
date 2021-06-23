@@ -3,11 +3,13 @@ import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import FastapiPage from '../views/backend/FastapiPage.vue';
 import ReactPage from '../views/frontend/ReactPage.vue';
-import MysqlPage from '../views/database/MysqlPage.vue';
-import PostgresPage from '../views/database/PostgresPage.vue';
-import VerilogPage from '../views/others/VerilogPage.vue';
-import VhdlPage from '../views/others/VhdlPage.vue';
-import CppPage from '../views/others/CppPage.vue';
+
+// import MysqlPage from '../views/database/MysqlPage.vue';
+// import PostgresPage from '../views/database/PostgresPage.vue';
+// import VerilogPage from '../views/others/VerilogPage.vue';
+// import VhdlPage from '../views/others/VhdlPage.vue';
+// import CppPage from '../views/others/CppPage.vue';
+
 import DrogonPage from '../views/backend/DrogonPage.vue';
 import SpringBootPage from '../views/backend/SpringBootPage.vue';
 import ExpressPage from '../views/backend/ExpressPage.vue';
@@ -65,31 +67,31 @@ const routes = [
     name: 'Vuejs',
     component: VuejsPage,
   },
-  {
-    path: '/mysql',
-    name: 'MysqlPage',
-    component: MysqlPage,
-  },
-  {
-    path: '/postgres',
-    name: 'PostgresPage',
-    component: PostgresPage,
-  },
-  {
-    path: '/verilog',
-    name: 'VerilogPage',
-    component: VerilogPage,
-  },
-  {
-    path: '/vhdl',
-    name: 'VhdlPage',
-    component: VhdlPage,
-  },
-  {
-    path: '/cplusplus',
-    name: 'CppPage',
-    component: CppPage,
-  },
+  // {
+  //   path: '/mysql',
+  //   name: 'MysqlPage',
+  //   component: MysqlPage,
+  // },
+  // {
+  //   path: '/postgres',
+  //   name: 'PostgresPage',
+  //   component: PostgresPage,
+  // },
+  // {
+  //   path: '/verilog',
+  //   name: 'VerilogPage',
+  //   component: VerilogPage,
+  // },
+  // {
+  //   path: '/vhdl',
+  //   name: 'VhdlPage',
+  //   component: VhdlPage,
+  // },
+  // {
+  //   path: '/cplusplus',
+  //   name: 'CppPage',
+  //   component: CppPage,
+  // },
 ];
 
 const router = new VueRouter({

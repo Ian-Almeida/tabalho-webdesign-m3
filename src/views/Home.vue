@@ -5,9 +5,7 @@
         <div class="flex justify-center p-2">
 
           <div class="font-bold text-2xl ml-10">Este SPA foi feito com o intuito de apresentar
-            algumas tecnologias para o desenvolvimento web. Além da web, para contemplar-mos o
-            curso de engenharia da computação tem uma seção específica para apresentar tecnologias
-            de descrição de hardware
+            algumas tecnologias para o desenvolvimento web.
           </div>
 
         </div>
