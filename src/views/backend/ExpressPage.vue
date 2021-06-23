@@ -32,16 +32,16 @@
         </div>
         <div class="card mx-2.5">
           <div class="card-title">Desempenho</div>
-          <div class="card-text">O Express fornece uma camada fina de recursos 
+          <div class="card-text">O Express fornece uma camada fina de recursos
             fundamentais para aplicativos da web, sem obscurecer os recursos do Node.js</div>
         </div>
         <div class="card mx-2.5">
           <div class="card-title">APIs</div>
-          <div class="card-text">Com uma miríade de métodos utilitários HTTP 
+          <div class="card-text">Com uma miríade de métodos utilitários HTTP
             e middleware a seu dispor, criar uma API robusta é rápido e fácil.</div>
         </div>
     </div>
-    
+
     <div class="max-w-lg justify-center flex mx-auto py-12">
       <code-hightlight class="language-js">
         <pre>
@@ -49,7 +49,7 @@
         </pre>
       </code-hightlight>
     </div>
-    
+
   </div>
 </template>
 
@@ -73,6 +73,10 @@ export default {
       // respond with "hello world" when a GET request is made to the homepage
       app.get('/', function(req, res) {
       res.send('hello world');
+      });
+
+      app.listen(3001, () => {
+        console.log('Running on http://localhost:3001/');
       });
     `,
   }),

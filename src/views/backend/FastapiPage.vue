@@ -28,17 +28,17 @@
     <div class="grid grid-cols-2 justify-center flex mx-96 h-40">
         <div class="card mx-2.5">
           <div class="card-title">O que é?</div>
-          <div class="card-text">FastAPI é uma estrutura da web moderna e rápida 
-            (de alto desempenho) para a 
+          <div class="card-text">FastAPI é uma estrutura da web moderna e rápida
+            (de alto desempenho) para a
             construção de APIs com Python 3.6+ com base em Python padrão.</div>
         </div>
         <div class="card mx-2.5">
           <div class="card-title">Principais funcionalidades</div>
-          <div class="card-text">Rápido para codificar, desempenho muito alto, 
+          <div class="card-text">Rápido para codificar, desempenho muito alto,
             Intuitivo, menos bugs, fácil e código curto</div>
         </div>
     </div>
-    
+
     <div class="max-w-lg justify-center flex mx-auto py-12">
       <code-hightlight language="python">
         <pre>
@@ -46,9 +46,9 @@
         </pre>
       </code-hightlight>
     </div>
-    
+
   </div>
-  
+
 </template>
 
 <script>
@@ -81,6 +81,14 @@ export default {
       @app.get("/items/{item_id}")
       def read_item(item_id: int, q: Optional[str] = None):
         return {"item_id": item_id, "q": q}
+
+      if __name__ == "__main__":
+        uvicorn.run(
+          "main:app",
+          host='localhost',
+          reload=False,
+          port=8000,
+        )
     `,
   }),
 };

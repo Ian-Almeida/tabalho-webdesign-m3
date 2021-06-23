@@ -28,24 +28,24 @@
     <div class="grid grid-cols-3 justify-center flex mx-96 h-40">
         <div class="card mx-2.5">
           <div class="card-title">O que é?</div>
-          <div class="card-text">O Spring torna a programação em Java mais rápida, 
-            fácil e segura para todos. 
-            O foco do Spring em velocidade, simplicidade e produtividade o tornou o 
+          <div class="card-text">O Spring torna a programação em Java mais rápida,
+            fácil e segura para todos.
+            O foco do Spring em velocidade, simplicidade e produtividade o tornou o
             framework Java mais popular do mundo.</div>
         </div>
         <div class="card mx-2.5">
           <div class="card-title">Compatibilidade</div>
-          <div class="card-text">Por ser Java, tem uma ótima compatibilidade com 
+          <div class="card-text">Por ser Java, tem uma ótima compatibilidade com
             qualquer sistema</div>
         </div>
         <div class="card mx-2.5">
           <div class="card-title">APIs</div>
-          <div class="card-text">APIs são facilmente criadas usando conceitos 
-            orientado a objetos, 
+          <div class="card-text">APIs são facilmente criadas usando conceitos
+            orientado a objetos,
             com toda a facilidade de uma aplicação Java.</div>
         </div>
     </div>
-    
+
     <div class="max-w-lg justify-center flex mx-auto py-12">
       <code-hightlight class="language-java">
         <pre>
@@ -78,6 +78,10 @@ export default {
       @SpringBootApplication
       @RestController
       public class DemoApplication {
+
+        public static void main(String[] args) {
+          SpringApplication.run(DemoApplication.class, args);
+        }
 
         @GetMapping("/helloworld")
         public String hello() {
