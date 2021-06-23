@@ -237,8 +237,8 @@
             <img src="/avatars/avatar-5.png" alt="">
           </vs-avatar>
         </vs-row>
-      </template>
-    </vs-sidebar>-->
+      </template>-->
+    </vs-sidebar>
   </div>
 </template>
 
